@@ -53,8 +53,8 @@ h1 em, h2 em, h3 em { font-weight: 400; }
 
 .site-shell { overflow: hidden; }
 .site-header { position: relative; z-index: 30; height: 86px; padding: 0 4.3vw; display: flex; align-items: center; justify-content: space-between; background: rgba(248, 245, 239, .94); backdrop-filter: blur(16px); border-bottom: 1px solid var(--line); }
-.brand { display: inline-flex; align-items: center; gap: 12px; width: 144px; }
-.brand-mark { width: 47px; height: 47px; object-fit: contain; }
+.brand { display: inline-flex; align-items: center; }
+.brand-mark { height: 34px; width: auto; object-fit: contain; }
 .brand-wordmark { font-size: 21px; line-height: .62; letter-spacing: -.075em; text-transform: uppercase; }
 .brand-wordmark i { font-size: 19px; text-transform: none; margin-left: 9px; }
 .desktop-nav { display: flex; gap: 30px; position: absolute; left: 50%; transform: translateX(-50%); }
@@ -252,7 +252,7 @@ h1 em, h2 em, h3 em { font-weight: 400; }
 .footer-top h2 { margin-top: 23px; font-size: clamp(55px, 6.5vw, 92px); }
 .footer-top h2 em { color: #db908d; }
 .footer-book { display: inline-flex; align-items: center; gap: 10px; padding-bottom: 6px; border-bottom: 1px solid #f9f5ee; font-size: 11px; letter-spacing: .12em; text-transform: uppercase; transition: color 180ms cubic-bezier(.23,1,.32,1), gap 180ms cubic-bezier(.23,1,.32,1); }
-.footer-logo-mark { width: 72px; height: 72px; object-fit: contain; filter: brightness(0) invert(1) sepia(.3); opacity: .9; margin-left: auto; }
+.footer-logo-mark { height: 34px; width: auto; object-fit: contain; filter: brightness(0) invert(1) sepia(.3); opacity: .9; margin-left: auto; }
 .footer-book:hover { color: #eaa39f; gap: 15px; }
 .footer-bottom { position: relative; z-index: 1; padding-top: 23px; display: flex; justify-content: space-between; align-items: center; color: rgba(249,245,238,.62); font-size: 11px; }
 .footer-links { display: flex; gap: 23px; }
@@ -321,7 +321,7 @@ h1 em, h2 em, h3 em { font-weight: 400; }
 }
 
 @media (max-width: 560px) {
-  .brand-mark { width: 39px; height: 39px; }
+  .brand-mark { height: 28px; width: auto; }
   .brand-wordmark { font-size: 17px; }
   .brand-wordmark i { font-size: 16px; }
   .hero-copy { min-height: 485px; padding-left: 7vw; padding-right: 7vw; }
@@ -357,6 +357,6 @@ h1 em, h2 em, h3 em { font-weight: 400; }
   .contact-signoff { min-height: 320px; grid-template-columns: 1fr; align-items: start; gap: 31px; }
   .contact-signoff img { max-width: 153px; }
   .footer-top { align-items: flex-start; flex-direction: column; padding-bottom: 55px; }
-  .footer-logo-mark { position: absolute; right: 0; bottom: 28px; width: 56px; height: 56px; }
+  .footer-logo-mark { position: absolute; right: 0; bottom: 28px; height: 28px; width: auto; }
   .footer-bottom { align-items: flex-start; flex-direction: column; gap: 16px; }
 }
