@@ -40,8 +40,7 @@ export default function SiteShell({ children }: { children: ReactNode }) {
     <div className="site-shell">
       <header className="site-header">
         <Link href="/" className="brand" aria-label="Lantie Nail home">
-          <img src={assets.mark} alt="" className="brand-mark" />
-          <span className="brand-wordmark">Lantie<br /><i>Nail</i></span>
+          <img src={assets.mark} alt="Lantie" className="brand-mark" />
         </Link>
 
         <nav className="desktop-nav" aria-label="Primary navigation">
