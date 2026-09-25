@@ -5,6 +5,7 @@ import SiteShell from "@/components/SiteShell";
 import About from "@/pages/About";
 import Book from "@/pages/Book";
 import Contact from "@/pages/Contact";
+import Founder from "@/pages/Founder";
 import Home from "@/pages/Home";
 import NotFound from "@/pages/NotFound";
 import Services from "@/pages/Services";
@@ -19,6 +20,7 @@ function Router() {
       <Switch>
         <Route path="/" component={Home} />
         <Route path="/about" component={About} />
+        <Route path="/founder" component={Founder} />
         <Route path="/services" component={Services} />
         <Route path="/book" component={Book} />
         <Route path="/contact" component={Contact} />

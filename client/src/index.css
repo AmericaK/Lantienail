@@ -360,3 +360,68 @@ h1 em, h2 em, h3 em { font-weight: 400; }
   .footer-logo-mark { position: absolute; right: 0; bottom: 28px; height: 28px; width: auto; }
   .footer-bottom { align-items: flex-start; flex-direction: column; gap: 16px; }
 }
+
+/* ---- About & Founder (client brief, 2026) ---------------------------- */
+.page-intro--about { background: #f2ece3; }
+.page-intro--founder { background: #efe7e2; }
+
+.about-philosophy { padding: clamp(74px, 9vw, 126px) 12vw; display: grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1fr); gap: clamp(36px, 6vw, 84px); align-items: start; border-bottom: 1px solid var(--line); }
+.about-philosophy h2 { font-size: clamp(38px, 4.6vw, 62px); margin-top: 18px; }
+.about-philosophy h2 em { color: var(--red); }
+.philosophy-copy p { color: var(--ink-soft); margin: 0 0 18px; max-width: 54ch; }
+.philosophy-copy p:last-child { margin-bottom: 0; }
+
+.safety-standards { padding: clamp(66px, 8vw, 104px) 12vw; background: var(--paper-deep); border-bottom: 1px solid var(--line); }
+.safety-head { max-width: 460px; margin-bottom: clamp(34px, 4vw, 54px); }
+.safety-head p { margin: 14px 0 0; color: var(--ink-soft); }
+.safety-list { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(22px, 3vw, 46px); }
+.safety-list article { padding-top: 22px; border-top: 1px solid var(--line); }
+.safety-list span { display: block; font-size: 10px; font-weight: 600; letter-spacing: .18em; color: var(--red); }
+.safety-list h3 { margin: 14px 0 10px; font-size: clamp(22px, 2.3vw, 30px); letter-spacing: -.02em; }
+.safety-list p { margin: 0; font-size: 14px; color: var(--ink-soft); }
+
+.about-korea { padding: clamp(74px, 9vw, 126px) 12vw; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, .8fr); gap: clamp(36px, 6vw, 82px); align-items: center; border-bottom: 1px solid var(--line); }
+.about-korea h2 { font-size: clamp(38px, 4.8vw, 66px); margin-top: 18px; }
+.about-korea h2 em { color: var(--red); }
+.about-korea-copy p { color: var(--ink-soft); margin: 0 0 16px; max-width: 50ch; }
+.about-korea-stat { margin-top: 30px; padding-top: 22px; border-top: 1px solid var(--line); display: flex; align-items: baseline; gap: 16px; flex-wrap: wrap; }
+.about-korea-stat strong { font-family: "Cormorant Garamond", Georgia, serif; font-weight: 500; font-size: clamp(34px, 3.6vw, 50px); letter-spacing: -.03em; color: var(--red); }
+.about-korea-stat span { font-size: 14px; color: var(--ink-soft); max-width: 30ch; }
+.about-korea-image { position: relative; }
+.about-korea-image img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; }
+
+.about-pullquote { padding: clamp(78px, 10vw, 136px) 12vw; text-align: center; display: flex; flex-direction: column; align-items: center; gap: 22px; border-bottom: 1px solid var(--line); }
+.about-pullquote h2 { font-size: clamp(42px, 6vw, 88px); }
+.about-pullquote h2 em { color: var(--red); }
+.pullquote-lines { display: flex; flex-direction: column; gap: 6px; font-family: "Cormorant Garamond", Georgia, serif; font-size: clamp(19px, 2vw, 26px); color: var(--ink-soft); }
+.about-pullquote > p { max-width: 56ch; color: var(--ink-soft); margin: 6px 0 0; }
+.about-location-note { max-width: 52ch; margin: 18px auto 6px; color: rgba(248, 245, 239, .78); font-size: 15px; }
+
+.founder-feature { padding: clamp(70px, 9vw, 122px) 12vw; display: grid; grid-template-columns: minmax(0, .82fr) minmax(0, 1fr); gap: clamp(36px, 6vw, 82px); align-items: center; border-bottom: 1px solid var(--line); }
+.founder-portrait { position: relative; }
+.founder-portrait img { width: 100%; aspect-ratio: 3 / 4; object-fit: cover; }
+.founder-portrait-caption { margin-top: 14px; font-size: 10px; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; color: var(--ink-soft); }
+.founder-copy h2 { font-size: clamp(38px, 4.8vw, 66px); margin-top: 18px; }
+.founder-copy h2 em { color: var(--red); }
+.founder-copy p { color: var(--ink-soft); margin: 0 0 16px; max-width: 52ch; }
+.founder-copy .underlined-link { margin-top: 12px; }
+
+.founder-quote { padding: clamp(74px, 9vw, 124px) 12vw; background: var(--ink); color: var(--paper); display: flex; flex-direction: column; align-items: center; text-align: center; gap: 24px; }
+.founder-quote .eyebrow { color: #e6c9cf; }
+.founder-quote blockquote { margin: 0; max-width: 20ch; font-family: "Cormorant Garamond", Georgia, serif; font-weight: 500; font-size: clamp(34px, 5vw, 66px); line-height: 1.04; letter-spacing: -.03em; }
+.founder-quote blockquote em { color: #e0a9b3; }
+.founder-quote-lines { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px 26px; font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: rgba(248, 245, 239, .72); }
+
+.founder-team { padding: clamp(70px, 9vw, 122px) 12vw; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, .82fr); gap: clamp(36px, 6vw, 82px); align-items: center; }
+.founder-team h2 { font-size: clamp(36px, 4.4vw, 60px); margin-top: 18px; }
+.founder-team h2 em { color: var(--red); }
+.founder-team-copy p { color: var(--ink-soft); max-width: 46ch; }
+.founder-team-image { position: relative; }
+.founder-team-image img { width: 100%; aspect-ratio: 3 / 4; object-fit: cover; }
+
+@media (max-width: 900px) {
+  .about-philosophy, .about-korea, .founder-feature, .founder-team { grid-template-columns: 1fr; padding-left: 7vw; padding-right: 7vw; }
+  .about-korea-image, .founder-team-image { order: -1; }
+  .safety-standards, .about-pullquote, .founder-quote { padding-left: 7vw; padding-right: 7vw; }
+  .safety-list { grid-template-columns: 1fr; }
+}
