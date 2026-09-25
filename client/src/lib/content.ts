@@ -10,12 +10,23 @@ export const instagramUrl = "https://www.instagram.com/lantienail_us/";
 export const assets = {
   hero: "/lantie-hero.jpg",
   mark: "/lantie-mark.png",
+  badge: "/lantie-badge.png",
+  founder: "/lantie-founder.jpg",
+  founderAlt: "/lantie-founder-alt.jpg",
+  team: "/lantie-team.jpg",
   manicure: "/lantie-manicure.jpg",
   pedicure: "/lantie-pedicure.jpg",
   extension: "/lantie-extension.jpg",
   book: "/lantie-book.jpg",
   contact: "/lantie-contact.jpg",
 };
+
+/** Product-safety standards shown on the About page. */
+export const safetyStandards = [
+  ["HEMA-Free", "Formulated without HEMA, a common cause of gel sensitivity."],
+  ["TPO-Free", "Selected without TPO photoinitiators."],
+  ["Non-Toxic", "Products chosen with your nail health and overall experience in mind."],
+];
 
 export const serviceGroups = [
   {
