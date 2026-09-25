@@ -68,8 +68,7 @@ h1 em, h2 em, h3 em { font-weight: 400; }
 .header-book:active, .button:active { transform: scale(.97); }
 .mobile-menu-button, .mobile-nav { display: none; }
 
-.eyebrow { display: flex; align-items: center; gap: 8px; font-size: 10px; line-height: 1.2; font-weight: 600; letter-spacing: .17em; text-transform: uppercase; color: var(--red); }
-.eyebrow span { width: 21px; height: 1px; background: currentColor; }
+.eyebrow { margin: 0; font-size: 11px; line-height: 1.45; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--red); }
 .eyebrow--light { color: #faeee7; }
 .archive-index { position: absolute; writing-mode: vertical-rl; right: 4.3vw; top: 50%; transform: translateY(-50%); font-size: 10px; font-weight: 600; letter-spacing: .18em; color: var(--ink-soft); }
 
