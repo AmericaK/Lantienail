@@ -18,7 +18,6 @@ const navItems = [
 export function Eyebrow({ children, light = false }: { children: ReactNode; light?: boolean }) {
   return (
     <p className={`eyebrow ${light ? "eyebrow--light" : ""}`}>
-      <span aria-hidden="true" />
       {children}
     </p>
   );
