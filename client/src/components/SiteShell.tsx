@@ -9,6 +9,7 @@ import { assets, bookingUrl, instagramUrl } from "@/lib/content";
 
 const navItems = [
   { href: "/about", label: "About" },
+  { href: "/founder", label: "Founder" },
   { href: "/services", label: "Services" },
   { href: "/book", label: "Book" },
   { href: "/contact", label: "Contact" },
