@@ -14,19 +14,21 @@ export default function Home() {
         <div className="hero-copy">
           <Eyebrow>Contemporary nail atelier</Eyebrow>
           <h1>Beauty in<br /><em>the details.</em></h1>
-          <p>Considered nail care and artful finishes, made for your everyday.</p>
+          <p>Considered nail care and artful finishes, made for your everyday.
+            <span className="ko" lang="ko">건강한 네일을 먼저 생각하는, 한국 네일 아트의 섬세함.</span>
+          </p>
           <div className="hero-actions">
             <a className="button button--primary" href={bookingUrl} target="_blank" rel="noreferrer">Book an appointment <ArrowUpRight size={17} /></a>
             <Link className="text-link" href="/services">Explore services <ArrowDown size={16} /></Link>
           </div>
         </div>
         <div className="hero-image-wrap">
-          <img className="hero-image" src={assets.hero} alt="Soft nude gel manicure with a burgundy accent" />
-          <div className="hero-image-caption"><span>01</span> Hand studies / Lantie Nail</div>
+          <img className="hero-image" src={assets.hero} alt="Inside the Lantie Nail studio in Duluth, with polish shelves by a sunlit window" />
+          <div className="hero-image-caption"><span>01</span> The studio / Duluth, GA</div>
           <div className="hero-arch" aria-hidden="true" />
         </div>
         <div className="hero-side-note"><Sparkles size={14} /> Duluth, GA</div>
-        <ArchiveIndex index="01 / 04" />
+        <ArchiveIndex index="01 / 06" />
       </section>
 
       <section className="home-manifesto">

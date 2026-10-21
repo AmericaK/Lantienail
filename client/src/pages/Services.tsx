@@ -4,15 +4,17 @@
  */
 import { ArrowUpRight, ExternalLink, Plus } from "lucide-react";
 import { ArchiveIndex, Eyebrow } from "@/components/SiteShell";
-import { bookingUrl, careServices, serviceGroups } from "@/lib/content";
+import { bookingUrl, careServices, joyNote, serviceGroups } from "@/lib/content";
 
 export default function Services() {
   return (
     <>
       <section className="page-intro page-intro--services">
         <div><Eyebrow>Services & pricing</Eyebrow><h1>Choose your<br /><em>canvas.</em></h1></div>
-        <p>A selected view of the Lantie Nail menu. See the booking page for full details, availability, and current pricing.</p>
-        <ArchiveIndex index="03 / 04" />
+        <p>A selected view of the Lantie Nail menu. See the booking page for full details, availability, and current pricing.
+          <span className="ko" lang="ko">전체 메뉴와 최신 가격은 예약 페이지에서 확인하실 수 있습니다.</span>
+        </p>
+        <ArchiveIndex index="04 / 06" />
       </section>
 
       <section className="service-feature-list">
@@ -41,7 +43,13 @@ export default function Services() {
 
       <section className="services-note">
         <div className="services-note-symbol">LN</div>
-        <div><Eyebrow>Before you book</Eyebrow><h2>For the full menu,<br /><em>visit Square.</em></h2><p>Prices and treatment times shown here are selected from our current booking menu and may change. Our Square page has the latest details.</p></div>
+        <div><Eyebrow>Before you book</Eyebrow><h2>For the full menu,<br /><em>visit Square.</em></h2><p>Prices and treatment times shown here are selected from our current booking menu and may change. Our Square page has the latest details.
+          <span className="ko" lang="ko">위 가격과 소요 시간은 예약 메뉴 기준이며 변동될 수 있습니다.</span>
+        </p>
+        <div className="joy-surcharge joy-surcharge--inline">
+          <strong>{joyNote.surchargeEn}</strong>
+          <span lang="ko">{joyNote.surchargeKo}</span>
+        </div></div>
         <a className="button button--outline" href={bookingUrl} target="_blank" rel="noreferrer">Open booking menu <ExternalLink size={16} /></a>
       </section>
     </>
