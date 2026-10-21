@@ -6,6 +6,25 @@ export const bookingUrl =
   "https://book.squareup.com/appointments/8qwpo8v0v73ax5/location/LS4B438NDPFE6/services";
 
 export const instagramUrl = "https://www.instagram.com/lantienail_us/";
+export const instagramHandle = "@lantienail_us";
+
+/** Studio contact details, taken from the salon's own Square booking page. */
+export const contact = {
+  phone: "(678) 400-9087",
+  phoneHref: "tel:+16784009087",
+  addressLine1: "3294 Peachtree Industrial Blvd, Ste 2002",
+  addressLine2: "Duluth, GA 30096",
+  mapUrl:
+    "https://www.google.com/maps/search/?api=1&query=3294+Peachtree+Industrial+Blvd+Ste+2002+Duluth+GA+30096",
+};
+
+/** Requesting Joy — shown in English and Korean on the booking page. */
+export const joyNote = {
+  en: "Would you like an appointment with Joy? Please leave the note “Request Joy” when booking. Without the request note, your appointment may be assigned to another technician.",
+  ko: "원장(Joy) 지정 예약을 원하시면 예약 시 메모란에 “Request Joy”를 남겨 주세요. 메모가 없으면 다른 담당자에게 배정될 수 있습니다.",
+  surchargeEn: "Services with Joy are +$10 per service.",
+  surchargeKo: "원장 지정 시 서비스당 $10이 추가됩니다.",
+};
 
 export const assets = {
   hero: "/lantie-hero.jpg",
