@@ -193,7 +193,7 @@ h1 em, h2 em, h3 em { font-weight: 400; }
 
 .booking-main { display: grid; grid-template-columns: 1.02fr .98fr; }
 .booking-panel { min-height: 630px; display: flex; flex-direction: column; justify-content: space-between; background: var(--ink); color: #fffaf8; padding: 26px 4.3vw; position: relative; overflow: hidden; }
-.booking-panel-art { position: absolute; inset: 0; z-index: 0; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: .23; mix-blend-mode: screen; }
+.booking-panel-art { position: absolute; inset: 0; z-index: 0; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: .42; mix-blend-mode: screen; }
 .booking-panel::before { content: ""; position: absolute; inset: 0; z-index: 0; background: linear-gradient(90deg, rgba(32,26,24,.93) 0%, rgba(32,26,24,.76) 57%, rgba(32,26,24,.45) 100%); }
 .booking-panel::after { content: ""; position: absolute; width: 67vw; height: 50vw; right: -21vw; bottom: -28vw; border: 1px solid rgba(255,249,241,.2); border-radius: 50% 50% 0 0; }
 .booking-panel > * { position: relative; z-index: 1; }
