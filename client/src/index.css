@@ -419,7 +419,7 @@ h1 em, h2 em, h3 em { font-weight: 400; }
 .founder-team { padding: clamp(70px, 9vw, 122px) 12vw; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, .82fr); gap: clamp(36px, 6vw, 82px); align-items: center; }
 .founder-team h2 { font-size: clamp(27px, 3.34vw, 46px); margin-top: 18px; }
 .founder-team h2 em { color: var(--red); }
-.founder-team-copy p { color: var(--ink-soft); max-width: 46ch; }
+.founder-team-copy p { margin: 22px 0 0; color: var(--ink-soft); max-width: 46ch; }
 .founder-team-image { position: relative; }
 .founder-team-image img { width: 100%; aspect-ratio: 3 / 4; object-fit: cover; }
 
