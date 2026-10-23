@@ -167,7 +167,7 @@ h1 em, h2 em, h3 em { font-weight: 400; }
 .service-feature { display: grid; grid-template-columns: minmax(300px, .72fr) 1fr; gap: clamp(53px, 10vw, 145px); padding-bottom: clamp(88px, 12vw, 165px); align-items: center; }
 .service-feature--reversed { grid-template-columns: 1fr minmax(300px, .72fr); }
 .service-feature--reversed .service-feature-image { order: 2; }
-.service-feature-image { position: relative; max-width: 450px; aspect-ratio: .79; }
+.service-feature-image { position: relative; max-width: 560px; aspect-ratio: 1.34; }
 .service-feature--reversed .service-feature-image { justify-self: end; }
 .service-feature-image img { height: 100%; width: 100%; object-fit: cover; }
 .service-feature-image span { position: absolute; top: 20px; left: -27px; writing-mode: vertical-rl; color: var(--red); font-size: 10px; letter-spacing: .16em; }
@@ -307,7 +307,7 @@ h1 em, h2 em, h3 em { font-weight: 400; }
   .principle-list h3 { margin: auto 0 10px; }
   .service-feature, .service-feature--reversed { grid-template-columns: 1fr; gap: 54px; }
   .service-feature--reversed .service-feature-image { order: 0; justify-self: start; }
-  .service-feature-image { max-width: 420px; }
+  .service-feature-image { max-width: 500px; }
   .more-care { grid-template-columns: 1fr; gap: 45px; padding-left: 10vw; padding-right: 10vw; }
   .services-note { grid-template-columns: 124px 1fr; padding-left: 10vw; padding-right: 10vw; }
   .services-note .button { grid-column: 2; justify-self: start; }
