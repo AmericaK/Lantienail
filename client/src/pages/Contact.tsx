@@ -4,7 +4,7 @@
  */
 import { ArrowUpRight, Instagram, MapPin, Phone } from "lucide-react";
 import { ArchiveIndex, Eyebrow } from "@/components/SiteShell";
-import { assets, contact, instagramHandle, instagramUrl } from "@/lib/content";
+import { contact, instagramHandle, instagramUrl } from "@/lib/content";
 
 export default function Contact() {
   return (
@@ -84,7 +84,6 @@ export default function Contact() {
 
       <section className="contact-signoff">
         <p>We look forward to<br /><em>seeing what you choose.</em></p>
-        <img src={assets.contact} alt="Soft neutral manicure close-up" />
         <span aria-hidden="true">LN</span>
       </section>
     </>
