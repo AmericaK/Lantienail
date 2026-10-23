@@ -39,7 +39,7 @@ export default function Book() {
 
       <section className="booking-main">
         <div className="booking-panel">
-          <img className="booking-panel-art" src={assets.book} alt="Soft neutral manicure on white textile" />
+          <img className="booking-panel-art" src={assets.book} alt="Nude gel colour palette laid out on a travertine tray" />
           <div className="booking-panel-top"><span>Appointment desk</span><span>Open online</span></div>
           <div className="booking-panel-content">
             <p className="booking-number">01</p>

@@ -23,7 +23,7 @@ export default function Home() {
           </div>
         </div>
         <div className="hero-image-wrap">
-          <img className="hero-image" src={assets.hero} alt="Inside the Lantie Nail studio in Duluth, with polish shelves by a sunlit window" />
+          <img className="hero-image" src={assets.hero} alt="The Lantie Nail studio — a sunlit styling table, polish shelves and the Lantie wall mark" />
           <div className="hero-image-caption"><span>01</span> The studio / Duluth, GA</div>
           <div className="hero-arch" aria-hidden="true" />
         </div>
