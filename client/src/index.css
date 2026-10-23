@@ -386,6 +386,7 @@ h1 em, h2 em, h3 em { font-weight: 400; }
 .about-korea h2 { font-size: clamp(29px, 3.65vw, 50px); margin-top: 18px; }
 .about-korea h2 em { color: var(--red); }
 .about-korea-copy p { color: var(--ink-soft); margin: 0 0 16px; max-width: 50ch; }
+.about-korea-copy h2 + p { margin-top: 22px; }
 .about-korea-stat { margin-top: 30px; padding-top: 22px; border-top: 1px solid var(--line); display: flex; align-items: baseline; gap: 16px; flex-wrap: wrap; }
 .about-korea-stat strong { font-family: "Jost", "Noto Sans KR", Helvetica, Arial, sans-serif; font-weight: 400; font-size: clamp(26px, 2.74vw, 38px); letter-spacing: -.01em; color: var(--red); }
 .about-korea-stat span { font-size: 14px; color: var(--ink-soft); max-width: 30ch; }
