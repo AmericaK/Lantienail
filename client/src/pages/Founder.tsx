@@ -46,11 +46,11 @@ export default function Founder() {
       <section className="founder-team">
         <div className="founder-team-copy">
           <Eyebrow>In the studio</Eyebrow>
-          <h2>Care, shared<br />by the <em>whole team.</em></h2>
-          <p>Every guest is looked after by artists who work to the same standard: minimal product, precise technique, and a finish designed around your own nails.</p>
+          <h2>Every set, held<br />to one <em>standard.</em></h2>
+          <p>Minimal product, precise technique, and a finish designed around your own nails — the standard Joy keeps for every guest who sits down at Lantie Nail.</p>
         </div>
         <div className="founder-team-image">
-          <img src={assets.team} alt="The Lantie Nail team in the Duluth studio" />
+          <img src={assets.team} alt="Joy Kang, founder of Lantie Nail, in the Duluth studio" />
           <div className="about-image-index">B / 01</div>
         </div>
       </section>
