@@ -33,6 +33,8 @@ export const assets = {
   founder: "/lantie-founder.jpg",
   founderAlt: "/lantie-founder-alt.jpg",
   team: "/lantie-team.jpg",
+  aboutNails: "/lantie-about-nails.jpg",
+  koreaNails: "/lantie-korea-nails.jpg",
   manicure: "/lantie-manicure.jpg",
   pedicure: "/lantie-pedicure.jpg",
   extension: "/lantie-extension.jpg",
