@@ -21,7 +21,7 @@ export default function About() {
 
       <section className="about-story">
         <div className="about-image-frame">
-          <img src={assets.aboutNails} alt="Natural gel manicure finished in a soft neutral tone" />
+          <img src={assets.aboutNails} alt="Inside the Lantie Nail studio — polish shelves beside a sunlit window" />
           <div className="about-image-index">A / 01</div>
         </div>
         <div className="about-story-copy">
@@ -73,7 +73,7 @@ export default function About() {
           </div>
         </div>
         <div className="about-korea-image">
-          <img src={assets.koreaNails} alt="Detailed Korean-style nail art with a soft glitter finish" />
+          <img src={assets.koreaNails} alt="The Lantie reception desk and premium nail salon sign, established 2016" />
           <div className="about-image-index">A / 02</div>
         </div>
       </section>
