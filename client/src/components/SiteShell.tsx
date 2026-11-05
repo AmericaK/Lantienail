@@ -11,6 +11,7 @@ const navItems = [
   { href: "/about", label: "About" },
   { href: "/founder", label: "Founder" },
   { href: "/services", label: "Services" },
+  { href: "/specials", label: "Specials" },
   { href: "/book", label: "Book" },
   { href: "/contact", label: "Contact" },
 ];
@@ -18,6 +19,7 @@ const navItems = [
 export function Eyebrow({ children, light = false }: { children: ReactNode; light?: boolean }) {
   return (
     <p className={`eyebrow ${light ? "eyebrow--light" : ""}`}>
+      <span aria-hidden="true" />
       {children}
     </p>
   );

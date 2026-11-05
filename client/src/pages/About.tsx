@@ -16,7 +16,7 @@ export default function About() {
           <h1>A moment<br />to <em>rest.</em></h1>
         </div>
         <p>A nail appointment should be more than beautiful nails. It should be a moment to slow down, breathe, and take care of yourself.</p>
-        <ArchiveIndex index="02 / 06" />
+        <ArchiveIndex index="02 / 07" />
       </section>
 
       <section className="about-story">

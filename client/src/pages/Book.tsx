@@ -24,7 +24,7 @@ export default function Book() {
           Choose your service and appointment time through our secure online booking page.
           <span className="ko" lang="ko">안전한 온라인 예약 페이지에서 서비스와 시간을 선택하세요.</span>
         </p>
-        <ArchiveIndex index="05 / 06" />
+        <ArchiveIndex index="06 / 07" />
       </section>
 
       <section className="book-cta">

@@ -10,6 +10,7 @@ import Founder from "@/pages/Founder";
 import Home from "@/pages/Home";
 import NotFound from "@/pages/NotFound";
 import Services from "@/pages/Services";
+import Specials from "@/pages/Specials";
 import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
@@ -23,6 +24,7 @@ function Router() {
         <Route path="/about" component={About} />
         <Route path="/founder" component={Founder} />
         <Route path="/services" component={Services} />
+        <Route path="/specials" component={Specials} />
         <Route path="/book" component={Book} />
         <Route path="/contact" component={Contact} />
         <Route path="/404" component={NotFound} />

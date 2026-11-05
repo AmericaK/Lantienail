@@ -15,7 +15,7 @@ export default function Founder() {
           <h1>Joy <em>Kang.</em></h1>
         </div>
         <p>Founder &amp; Nail Artist — Lantie Nail, Duluth, Georgia.</p>
-        <ArchiveIndex index="03 / 06" />
+        <ArchiveIndex index="03 / 07" />
       </section>
 
       <section className="founder-feature">

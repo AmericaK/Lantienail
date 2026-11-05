@@ -14,7 +14,7 @@ export default function Services() {
         <p>A selected view of the Lantie Nail menu. See the booking page for full details, availability, and current pricing.
           <span className="ko" lang="ko">전체 메뉴와 최신 가격은 예약 페이지에서 확인하실 수 있습니다.</span>
         </p>
-        <ArchiveIndex index="04 / 06" />
+        <ArchiveIndex index="04 / 07" />
       </section>
 
       <section className="service-feature-list">

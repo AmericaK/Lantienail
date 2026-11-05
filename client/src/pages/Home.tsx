@@ -28,7 +28,7 @@ export default function Home() {
           <div className="hero-arch" aria-hidden="true" />
         </div>
         <div className="hero-side-note"><Sparkles size={14} /> Duluth, GA</div>
-        <ArchiveIndex index="01 / 06" />
+        <ArchiveIndex index="01 / 07" />
       </section>
 
       <section className="home-manifesto">

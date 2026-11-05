@@ -18,6 +18,33 @@ export const contact = {
     "https://www.google.com/maps/search/?api=1&query=3294+Peachtree+Industrial+Blvd+Ste+2002+Duluth+GA+30096",
 };
 
+/* ─────────────────────────────────────────────────────────────────────────
+ * MONTHLY SPECIAL — update this each month.
+ *
+ *  1. Upload the new poster(s) to  client/public/specials/
+ *     (name them like 2026-12-en.jpg and 2026-12-ko.jpg)
+ *  2. Change the four lines below: title, period, image, imageKo
+ *  3. Update `alt` so the offer is readable to search engines and
+ *     to visitors using a screen reader.
+ *
+ *  Between promotions, set  active: false  — the page then shows a short
+ *  "no current offer" note instead of a poster. Nothing else breaks.
+ *  Leave imageKo as an empty string if there is no Korean poster.
+ * ──────────────────────────────────────────────────────────────────────── */
+export const special = {
+  active: true,
+  title: "November Event",
+  titleKo: "11월 이벤트",
+  period: "November – December 2026",
+  image: "/specials/2026-11-en.jpg",
+  imageKo: "/specials/2026-11-ko.jpg",
+  alt:
+    "Lantie Nail November event: gel manicure $45 and gel pedicure $55 with Chloe S. and Chloe Y., " +
+    "10% off nail design services with Joy, a 10% return-visit coupon within four weeks, " +
+    "complimentary accent designs after three visits and a French or gradient design after five, " +
+    "and a free eco bag with a $100 gift card purchase or a membership sign-up.",
+};
+
 /**
  * Seasonal promotion popup. Set `endsAt` to the moment it should stop showing
  * (one day after the last day of the promotion, New York time).
