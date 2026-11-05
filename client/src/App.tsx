@@ -1,6 +1,7 @@
 /** Gallery Nail Atelier routing: every page lives within one graceful, escapable public shell. */
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
+import PromoPopup from "@/components/PromoPopup";
 import SiteShell from "@/components/SiteShell";
 import About from "@/pages/About";
 import Book from "@/pages/Book";
@@ -45,6 +46,7 @@ function App() {
       >
         <TooltipProvider>
           <Toaster />
+          <PromoPopup />
           <Router />
         </TooltipProvider>
       </ThemeProvider>
