@@ -18,6 +18,16 @@ export const contact = {
     "https://www.google.com/maps/search/?api=1&query=3294+Peachtree+Industrial+Blvd+Ste+2002+Duluth+GA+30096",
 };
 
+/**
+ * Seasonal promotion popup. Set `endsAt` to the moment it should stop showing
+ * (one day after the last day of the promotion, New York time).
+ */
+export const promo = {
+  image: "/lantie-promo-ecobag.jpg",
+  alt: "A gift from Lantie Nail — a complimentary eco bag with a membership or gift card purchase, November 1 to December 31, 2026",
+  endsAt: "2027-01-01T00:00:00-05:00",
+};
+
 /** Requesting Joy — shown in English and Korean on the booking page. */
 export const joyNote = {
   en: "Would you like an appointment with Joy? Please leave the note “Request Joy” when booking. Without the request note, your appointment may be assigned to another technician.",
